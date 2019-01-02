@@ -1,0 +1,11 @@
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\bin\Debug\netcoreapp2.1\HackerRank.deps.json
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\bin\Debug\netcoreapp2.1\HackerRank.runtimeconfig.json
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\bin\Debug\netcoreapp2.1\HackerRank.runtimeconfig.dev.json
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\bin\Debug\netcoreapp2.1\HackerRank.dll
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\bin\Debug\netcoreapp2.1\HackerRank.pdb
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\obj\Debug\netcoreapp2.1\HackerRank.csproj.CoreCompileInputs.cache
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\obj\Debug\netcoreapp2.1\HackerRank.AssemblyInfoInputs.cache
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\obj\Debug\netcoreapp2.1\HackerRank.AssemblyInfo.cs
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\obj\Debug\netcoreapp2.1\HackerRank.dll
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\obj\Debug\netcoreapp2.1\HackerRank.pdb
+C:\Users\dhanunjaym\source\repos\HRPractice\HackerRank\obj\Debug\netcoreapp2.1\HackerRank.csprojAssemblyReference.cache
