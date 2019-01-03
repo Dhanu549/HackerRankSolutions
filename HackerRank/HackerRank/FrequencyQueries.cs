@@ -20,7 +20,6 @@ namespace HackerRank
             List<int> ans = freqQuery(queries);
 
             Console.WriteLine(String.Join("\n", ans));
-            Console.ReadLine();
         }
 
         static List<int> freqQuery(List<List<int>> queries)

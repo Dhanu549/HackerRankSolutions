@@ -12,7 +12,6 @@ namespace HackerRank
             int result = jumpingOnClouds(c);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         static int jumpingOnClouds(int[] c)

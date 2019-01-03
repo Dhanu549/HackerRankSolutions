@@ -688,11 +688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dhanunjaym\\source\\repos\\HRPractice\\HackerRank\\HackerRank.csproj",
+      "projectUniqueName": "C:\\Users\\dhanunjaym\\source\\repos\\HackerRank\\HackerRank\\HackerRank.csproj",
       "projectName": "HackerRank",
-      "projectPath": "C:\\Users\\dhanunjaym\\source\\repos\\HRPractice\\HackerRank\\HackerRank.csproj",
+      "projectPath": "C:\\Users\\dhanunjaym\\source\\repos\\HackerRank\\HackerRank\\HackerRank.csproj",
       "packagesPath": "C:\\Users\\dhanunjaym\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dhanunjaym\\source\\repos\\HRPractice\\HackerRank\\obj\\",
+      "outputPath": "C:\\Users\\dhanunjaym\\source\\repos\\HackerRank\\HackerRank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

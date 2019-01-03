@@ -13,7 +13,6 @@ namespace HackerRank
             long result = repeatedString(s, n);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         private static long repeatedString(string s, long n)

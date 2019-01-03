@@ -15,7 +15,6 @@ namespace HackerRank
             int res = makeAnagram(a, b);
 
             Console.WriteLine(res);
-            Console.ReadLine();
         }
 
         private static int makeAnagram(string a, string b)

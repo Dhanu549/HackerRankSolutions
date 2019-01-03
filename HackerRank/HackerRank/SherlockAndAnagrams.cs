@@ -18,7 +18,6 @@ namespace HackerRank
 
                 Console.WriteLine(result);
             }
-            Console.ReadLine();
         }
 
         static int sherlockAndAnagrams(string s)

@@ -20,7 +20,6 @@ namespace HackerRank
             string[] note = Console.ReadLine().Split(' ');
 
             checkMagazine(magazine, note);
-            Console.ReadLine();
         }
 
         static void checkMagazine(string[] magazine, string[] note)

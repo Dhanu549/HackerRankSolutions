@@ -13,7 +13,6 @@ namespace HackerRank
             int result = countingValleys(n, s);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         private static int countingValleys(int n, string s)

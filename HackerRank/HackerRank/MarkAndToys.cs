@@ -17,7 +17,6 @@ namespace HackerRank
             int result = maximumToys(prices, k);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         static int maximumToys(int[] prices, int k)

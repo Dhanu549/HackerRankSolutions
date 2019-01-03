@@ -18,7 +18,6 @@ namespace HackerRank
             int result = hourglassSum(arr);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         private static int hourglassSum(int[][] arr)

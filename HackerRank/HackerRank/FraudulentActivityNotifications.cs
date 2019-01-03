@@ -17,7 +17,6 @@ namespace HackerRank
             int result = activityNotifications(expenditure, d);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         static int activityNotifications(int[] expenditure, int d)

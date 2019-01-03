@@ -13,7 +13,6 @@ namespace HackerRank
             string result = isValid(s);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         private static string isValid(string s)

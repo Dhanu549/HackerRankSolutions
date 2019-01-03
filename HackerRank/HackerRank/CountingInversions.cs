@@ -17,7 +17,6 @@ namespace HackerRank
 
                 Console.WriteLine(result);
             }
-            Console.ReadLine();
         }
 
         public static long countInversions(int[] arr)

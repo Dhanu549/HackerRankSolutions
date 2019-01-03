@@ -16,7 +16,6 @@ namespace HackerRank
 
                 Console.WriteLine(result);
             }
-            Console.ReadLine();
         }
 
         private static int alternatingCharacters(string s)

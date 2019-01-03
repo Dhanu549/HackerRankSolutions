@@ -24,7 +24,6 @@ namespace HackerRank
             long result = arrayManipulation(n, queries);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         private static long arrayManipulation(int n, int[][] queries)

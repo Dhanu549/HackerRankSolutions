@@ -14,7 +14,6 @@ namespace HackerRank
             int res = minimumSwaps(arr);
 
             Console.WriteLine(res);
-            Console.ReadLine();
         }
         static int minimumSwaps(int[] arr)
         {

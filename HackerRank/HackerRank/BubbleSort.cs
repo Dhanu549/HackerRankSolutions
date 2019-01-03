@@ -10,7 +10,6 @@ namespace HackerRank
 
             int[] a = Array.ConvertAll(Console.ReadLine().Split(' '), aTemp => Convert.ToInt32(aTemp));
             countSwaps(a);
-            Console.ReadLine();
         }
 
         private static void countSwaps(int[] a)

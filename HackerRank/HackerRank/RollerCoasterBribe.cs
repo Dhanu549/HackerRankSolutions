@@ -16,7 +16,6 @@ namespace HackerRank
                 ;
                 minimumBribes(q);
             }
-            Console.ReadLine();
         }
 
         static void minimumBribes(int[] q)

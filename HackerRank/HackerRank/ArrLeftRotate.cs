@@ -16,7 +16,6 @@ namespace HackerRank
             int[] result = rotLeft(a, d);
 
             Console.WriteLine(string.Join(" ", result));
-            Console.ReadLine();
         }
 
         private static int[] rotLeft(int[] a, int d)

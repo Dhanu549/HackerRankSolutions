@@ -13,7 +13,6 @@ namespace HackerRank
             int result = lilysHomework(arr);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         static int lilysHomework(int[] arr)

@@ -22,7 +22,6 @@ namespace HackerRank
             //int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => { int val; if (Int32.TryParse(arTemp, out val)) return new Converter<string,int>(arTemp); });
             int result = sockMerchant(n, arr);
             Console.WriteLine(result);
-            Console.ReadLine();            
         }
 
         private static int sockMerchant(int n, int[] ar)

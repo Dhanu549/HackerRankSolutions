@@ -13,7 +13,6 @@ namespace HackerRank
             int result = commonChild(s1, s2);
 
             Console.WriteLine(result);
-            Console.ReadLine();
         }
 
         static int commonChild(string s1, string s2)

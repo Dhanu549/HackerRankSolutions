@@ -19,7 +19,6 @@ namespace HackerRank
             long ans = countTriplets(arr, r);
 
             Console.WriteLine(ans);
-            Console.ReadLine();
         }
 
         private static long countTriplets(List<long> arr, long r)

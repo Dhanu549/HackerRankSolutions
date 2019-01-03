@@ -6,13 +6,37 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            //IceCreamParlor.Execute();
-            /*SwapNodes.Execute();*/       //Try later
-            //TripleSum.Execute();
-            //MinimumTimeRequired.Execute();
-            //MaximumSubarraySum.Execute();
+            //AlternatingCharacters.Execute();
+            //ArrLeftRotate.Execute();
+            //ArrManipulation.Execute();
+            //BubbleSort.Execute();
+            //CommonChild.Execute();
             //ConsecutiveToRange.Execute();
-            FrequencyQueries.Execute();
+            //CountingInversions.Execute();
+            //CountingValleys.Execute();
+            //CountTriplets.Execute();
+            //FraudulentActivityNotifications.Execute();
+            //FrequencyQueries.Execute();
+            //HourGlassSum.Execute();
+            //IceCreamParlor.Execute();
+            //JumpOnClouds.Execute();
+            //MakingAnagrams.Execute();
+            //MarkAndToys.Execute();
+            //MaximumSubarraySum.Execute();
+            //MinimumTimeRequired.Execute();
+            //MinSwaps.Execute();
+            //MinSwaps2.Execute();
+            //Pairs.Execute();
+            //RansomNote.Execute();
+            //RepeatedString.Execute();
+            //RollerCoasterBribe.Execute();
+            //SherlockAndAnagrams.Execute();
+            //SherlockAndTheValidString.Execute();
+            //SockMerchant.Execute();
+            //SpecialPalindromeAgain.Execute();
+            //SwapNodes.Execute();  --Not completed
+            //TripleSum.Execute();
+            //TwoStrings.Execute();
 
             Console.ReadLine();
         }
