@@ -6,6 +6,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
+            /* Un comment the required funcion to execute */
             //AlternatingCharacters.Execute();
             //ArrLeftRotate.Execute();
             //ArrManipulation.Execute();
@@ -37,6 +38,20 @@ namespace HackerRank
             //SwapNodes.Execute();  --Not completed
             //TripleSum.Execute();
             //TwoStrings.Execute();
+            //DayOfTheProgrammer.Execute();
+            //MinimumAbsoluteDifference.Execute();
+            //LuckBalance.Execute();
+            //GreedyFlorist.Execute();
+            //MaxMin.Execute();
+            //DnaComplement.Execute();
+            //NotInRange.Execute();
+            //NearestRestaurants.Execute();
+            //ShortestPathInGraph.Execute();
+            //NearestDestinations.Execute();
+            //OptimalRouteUtilization.Execute();
+            //LeadLife.Execute();
+            //DiamondMine.Execute();
+            RoadRepair.Execute();
 
             Console.ReadLine();
         }
