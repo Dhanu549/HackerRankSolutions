@@ -35,7 +35,7 @@ namespace HackerRank
             //SherlockAndTheValidString.Execute();
             //SockMerchant.Execute();
             //SpecialPalindromeAgain.Execute();
-            //SwapNodes.Execute();  --Not completed
+            //SwapNodes.Execute();
             //TripleSum.Execute();
             //TwoStrings.Execute();
             //DayOfTheProgrammer.Execute();
@@ -51,7 +51,14 @@ namespace HackerRank
             //OptimalRouteUtilization.Execute();
             //LeadLife.Execute();
             //DiamondMine.Execute();
-            RoadRepair.Execute();
+            //RoadRepair.Execute();
+            //PrimeFactors.Execute();
+            //SingleLoopSorting.Execute();
+            //MohitAndSwiggy.Execute();
+            //ReverseShuffleMerge.Execute();
+            //BalancedBrackets.Execute();
+            //QueuesATaleOfTwoStacks.Execute();
+            GCDMatrix.Execute();
 
             Console.ReadLine();
         }

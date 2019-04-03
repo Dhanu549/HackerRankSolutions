@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace HackerRank
 {
@@ -35,41 +34,96 @@ namespace HackerRank
 
         static int[][] swapNodes(int[][] indexes, int[] queries)
         {
-            int[][] res = new int[queries.Length][];
-
-            LinkedList<(int, int)> btree = new LinkedList<(int, int)>();
+            List<int[]> res = new List<int[]>();
             
-            LinkedListNode<(int, int)> root = new LinkedListNode<(int, int)>((1,1));
-            btree.AddFirst(root);
-            Stack<LinkedListNode<(int,int)>> s = new Stack<LinkedListNode<(int, int)>>();
-            s.Push(root);
-            int height = 1;
-            foreach(var ind in indexes)
-            {
-                LinkedListNode<(int, int)> current = s.Pop();
-                if (ind[0] != -1)
-                {
-                    s.Push(btree.AddBefore(current, (ind[0], current.Value.Item2 + 1)));
-                    if (height < current.Value.Item2 + 1)
-                        height = current.Value.Item2 + 1;
-                }                    
-                if (ind[1] != -1)
-                {
-                    s.Push(btree.AddAfter(current, (ind[1], current.Value.Item2 + 1)));
-                    if (height < current.Value.Item2 + 1)
-                        height = current.Value.Item2 + 1;
-                }                    
-            }
+            BinaryTree tree = new BinaryTree();            
+            BinaryTreeNode node = tree.convertToBinaryTree(indexes);
 
             foreach (int q in queries)
             {
-                for (int i = q; i <= height; i += q)
-                {
-
-                }
+                tree.swapAtLevelMupltiples(tree.root, q);
+                List<int> l = new List<int>();
+                res.Add(tree.inorderTraversal(tree.root, l).ToArray());
             }
 
-            return res;
+            return res.ToArray();
+        }
+    }
+   
+    public class BinaryTreeNode
+    {
+        public int data;
+        public int level;
+        public BinaryTreeNode left, right = null;
+        
+        public BinaryTreeNode(int data, int level)
+        {
+            this.data = data;
+            this.level = level;
+            left = right = null;
+        }
+    }
+
+    public class BinaryTree
+    {        
+        public BinaryTreeNode root;
+        
+        public BinaryTreeNode convertToBinaryTree(int[][] indexes)
+        {
+            Queue<BinaryTreeNode> q =
+                        new Queue<BinaryTreeNode>();
+
+            int level = 1;
+            root = new BinaryTreeNode(1, level);
+            q.Enqueue(root);
+
+            foreach (var ind in indexes)
+            {
+                BinaryTreeNode parent = q.Dequeue();
+                BinaryTreeNode leftChild = null, rightChild = null;
+
+                if (ind[0] != -1)
+                {
+                    leftChild = new BinaryTreeNode(ind[0], parent.level + 1);
+                    q.Enqueue(leftChild);
+                }
+                if (ind[1] != -1)
+                {
+                    rightChild = new BinaryTreeNode(ind[1], parent.level + 1);
+                    q.Enqueue(rightChild);
+                }
+                
+                parent.left = leftChild;
+                parent.right = rightChild;
+            }
+            
+            return root;
+        }
+
+        public void swapAtLevelMupltiples(BinaryTreeNode node, int swapLevel)
+        {
+            if (node == null)
+                return;
+
+            if(node.level % swapLevel == 0)
+            {
+                var temp = node.left;
+                node.left = node.right;
+                node.right = temp;
+            }
+            swapAtLevelMupltiples(node.left, swapLevel);
+            swapAtLevelMupltiples(node.right, swapLevel);
+        }
+
+        public List<int> inorderTraversal(BinaryTreeNode node, List<int> l)
+        {            
+            if (node != null)
+            {
+                inorderTraversal(node.left, l);
+                l.Add(node.data);
+                inorderTraversal(node.right, l);
+            }
+            return l;
         }
     }
 }
