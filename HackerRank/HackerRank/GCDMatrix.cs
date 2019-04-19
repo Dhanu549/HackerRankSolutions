@@ -51,17 +51,33 @@ namespace HackerRank
         }
 
         static int gcd(int a, int b)
-        {
-            if (a == 0)
-                return b;
-            if (b == 0)
-                return a;
+        {            
+            if (a == 1 || b == 1)
+                return 1;
             if (a == b)
                 return a;
 
             if (a > b)
                 return gcd(a - b, b);
             return gcd(a, b - a);
+        }
+
+        static int gcdNonRecursive(int a, int b)
+        {
+            while (a != b)
+                if (a > b)
+                    a -= b;
+                else
+                    b -= a;
+
+            return a;
+
+            //int gcd = 1;
+
+            //for(int i=1;i<=a&&i<=b;i++)
+            //    if (a % i == 0 && b % i == 0)
+            //        gcd = i;
+            //return gcd;
         }
     }
 }

@@ -58,7 +58,10 @@ namespace HackerRank
             //ReverseShuffleMerge.Execute();
             //BalancedBrackets.Execute();
             //QueuesATaleOfTwoStacks.Execute();
-            GCDMatrix.Execute();
+            //GCDMatrix.Execute();
+            //LargestRectangle.Execute();
+            //MinMaxRiddle.Execute();
+            WarehouseManager.Execute();
 
             Console.ReadLine();
         }
