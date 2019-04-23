@@ -61,7 +61,8 @@ namespace HackerRank
             //GCDMatrix.Execute();
             //LargestRectangle.Execute();
             //MinMaxRiddle.Execute();
-            WarehouseManager.Execute();
+            //WarehouseManager.Execute();
+            SinglylinkedListSolution.Execute();
 
             Console.ReadLine();
         }
