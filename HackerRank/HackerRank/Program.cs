@@ -62,7 +62,11 @@ namespace HackerRank
             //LargestRectangle.Execute();
             //MinMaxRiddle.Execute();
             //WarehouseManager.Execute();
-            SinglylinkedListSolution.Execute();
+            //SinglylinkedListSolution.Execute();
+            //MaxArraySum.Execute();
+            //Candies.Execute();
+            //FlippingBits.Execute();
+            FriendCircleQueries.Execute();
 
             Console.ReadLine();
         }
